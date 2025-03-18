@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Past Conferences - ICOAF</title>
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+  <meta name="ROBOTS" content="index, follow">
+  <meta name="RATING" content="General">
+  
+  <!-- CSS của hệ thống -->
+  <link href="index_files/style.css" type="text/css" rel="stylesheet">
+  <link href="index_files/skin.css" type="text/css" rel="stylesheet">
+  <link href="index_files/styleslide.css" type="text/css" rel="stylesheet">
+  <link href="index_files/pro_dropdown.css" type="text/css" rel="stylesheet">
+  <link href="index_files/skin(1).css" type="text/css" rel="stylesheet">
+  <link href="index_files/jquery-ui.custom.css" type="text/css" rel="stylesheet">
+  <link href="index_files/jquery.fancybox.css" type="text/css" rel="stylesheet" media="screen">
+  <link href="index_files/tn3e.css" type="text/css" rel="stylesheet">
+
+  <style>
+    .year-list li {
+      cursor: pointer;
+      padding: 5px 0;
+      border-bottom: 1px dotted #ccc;
+      color: #003366;
+    }
+    .year-list li:hover {
+      color: #0066cc;
+    }
+    .conference-content {
+      display: none;
+      margin-top: 10px;
+    }
+    .conference-content.active {
+      display: block;
+    }
+    .box-header .title {
+      font-size: 16px;
+      font-weight: bold;
+      color: #1b2a4e;
+      border-bottom: 1px solid #999;
+      padding-bottom: 4px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+  </style>
+
+  <script type="text/javascript">
+    function showContent(yearId) {
+      var contents = document.getElementsByClassName('conference-content');
+      for (var i = 0; i < contents.length; i++) {
+        contents[i].classList.remove('active');
+      }
+      document.getElementById(yearId).classList.add('active');
+    }
+  </script>
+</head>
+
+<body>
+  <div id="w1">
+    <div id="w2">
+      <div id="w3">
+
+        <!-- Header -->
+        <div id="header">
+          <div id="header1">
+            <!-- logo, menu trên nếu cần -->
+          </div>
+        </div>
+
+        <!-- Nội dung chính -->
+        <div id="w_content">
+          <div id="w_content1">
+            <div id="menuleft">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="call-for-papers.html">Call for papers</a></li>
+                <li><a href="importance-dates.html">Program overview</a></li>
+                <li><a href="keynote-speakers.html">Accepted papers</a></li>
+                <li><a href="Conference-Program.html">Conference venue</a></li>
+                <li><a href="registration.html">Travel and accomodation</a></li>
+                <li><a href="Travel-And-Accomodation.html">Visit Hue</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="past-conferences.html"><b>Past Conferences</b></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="w_content2">
+            <div id="w_content2_1"></div>
+            <div id="w_content2_2">
+              <div id="w_content2_2_1">
+                <div class="box-header">
+                  <div class="title">Past Conferences</div>
+                </div>
+
+                <!-- Danh sách năm -->
+                <ul class="year-list">
+                  <li onclick="showContent('y2024')">ICOAF 2024</li>
+                  <li onclick="showContent('y2023')">ICOAF 2023</li>
+                  <li onclick="showContent('y2022')">ICOAF 2022</li>
+                  <li onclick="showContent('y2021')">ICOAF 2021</li>
+                  <li onclick="showContent('y2019')">ICOAF 2019</li>
+                  <li onclick="showContent('y2018')">ICOAF 2018</li>
+                  <li onclick="showContent('y2017')">ICOAF 2017</li>
+                  <li onclick="showContent('y2016')">ICOAF 2016</li>
+                  <li onclick="showContent('y2015')">ICOAF 2015</li>
+                </ul>
+
+                <!-- Nội dung từng năm -->
+                <div id="y2024" class="conference-content">
+                  <h3>ICOAF 2024</h3>
+                  <p>Conference will be held in June 2024. More details will be updated.</p>
+                </div>
+
+                <div id="y2023" class="conference-content">
+                  <h3>ICOAF 2023</h3>
+                  <p>Held in June 2023 with the theme <strong>"Digital Transformation in Business and Economics"</strong>.</p>
+                </div>
+
+                <div id="y2022" class="conference-content">
+                  <h3>ICOAF 2022</h3>
+                  <p>Focus: Post-pandemic recovery and resilience in economic development.</p>
+                </div>
+
+                <div id="y2021" class="conference-content">
+                  <h3>ICOAF 2021</h3>
+                  <p>Exploring the role of entrepreneurship in sustainable development goals (SDGs).</p>
+                </div>
+
+                <div id="y2019" class="conference-content">
+                  <h3>ICOAF 2019</h3>
+                  <p>Regional innovation and digital business in Asia-Pacific economies.</p>
+                </div>
+
+                <div id="y2018" class="conference-content">
+                  <h3>ICOAF 2018</h3>
+                  <p>Theme: Enhancing transparency in finance and accounting systems.</p>
+                </div>
+
+                <div id="y2017" class="conference-content">
+                  <h3>ICOAF 2017</h3>
+                  <p>Developing startup ecosystems and innovation policy in ASEAN.</p>
+                </div>
+
+                <div id="y2016" class="conference-content">
+                  <h3>ICOAF 2016</h3>
+                  <p>ICOAF 2016 marked the beginning of regional research cooperation.</p>
+                </div>
+
+                <div id="y2015" class="conference-content">
+                  <h3>ICOAF 2015</h3>
+                  <p>First edition focused on regional integration and financial literacy.</p>
+                </div>
+
+              </div>
+            </div>
+            <div class="clearfloat"></div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <div id="w_footer">
+          <p style="text-align:center">Research Affairs and International Cooperation Office - University of Economics, Hue University</p>
+          <p style="text-align:center">99 Ho Dac Di St., An Cuu Ward, Hue city - Email: hoithao@hce.edu.vn - Tel: +84.234.3691165 (Vietnam)</p>
+          <p style="text-align:center">&nbsp;</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
